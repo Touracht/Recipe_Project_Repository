@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'recipe_api.recipe_api.settings_copy')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'recipe_api.settings')
 
 application = get_wsgi_application()
