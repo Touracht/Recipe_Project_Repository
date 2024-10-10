@@ -138,7 +138,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL='accounts.CustomUser'
 
 
-# The following are security based: 
+# The following are security based settings: 
 
 # Enable the browser XSS filter
 SECURE_BROWSER_XSS_FILTER = True
