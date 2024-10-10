@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!l$pjy!=6_pap)*k9^&a1)g81*%5mup_7ko8l_2bx&=i821ugx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['recipe_api.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
